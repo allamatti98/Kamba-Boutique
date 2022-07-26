@@ -7,3 +7,12 @@ def index(request):
 
 def aboutus(request):
     return render(request,"AboutUs.html",{})
+
+def products(request):
+    return render(request,"product.html",{})
+
+def checkout(request):
+    return render(request,"checkout.html",{})
+
+def ourteam(request):
+    return render(request,"ourteam.html",{})
